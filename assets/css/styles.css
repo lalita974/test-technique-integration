@@ -1,0 +1,111 @@
+/* GENERAL */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #5948ca;
+}
+
+button {
+  /* Pour hériter de la taille et de la police du parent  */
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px 15px 5px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HEADER */
+
+header div img {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+header div:nth-child(1) {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+header div p:hover {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+header div:nth-child(1) p {
+  margin-left: 15px;
+}
+
+header div:nth-child(2) {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 460px;
+}
+
+main {
+  display: flex;
+  border-radius: 5px;
+}
+
+main div {
+  background-color: #fff;
+}
+main img {
+  width: 450px;
+  height: 250px;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+main div p {
+  padding: 10px;
+}
+
+/* FOOTER */
+
+footer {
+  color: white;
+  text-align: end;
+}
